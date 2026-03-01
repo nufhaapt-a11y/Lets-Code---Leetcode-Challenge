@@ -1,0 +1,8 @@
+class Solution(object):
+    def smallestEvenMultiple(self, n):
+       if n<1 or n>150:
+        return "Invalid input"
+       if n%2==0:
+        return n
+       else:
+        return 2*n
